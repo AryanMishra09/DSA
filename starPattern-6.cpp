@@ -2,8 +2,8 @@
 output: 
             1
             2 3
-            4 5 6
-            7 8 9 10
+            3 4 5
+            4 5 6 7
 */
 
 #include<iostream>
@@ -18,6 +18,7 @@ int main(){
     int count = 1;
     while(i<a){
         int j = 0;
+        count = i+1;
         while(j<=i){
             cout<<count<<" ";
             count++;
