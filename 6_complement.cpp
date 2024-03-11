@@ -7,6 +7,12 @@ int main(){
     cin>>n;
     int complement = ~n;
     int mask=0;
+    //edge case
+    if(n==0){
+        cout<<"Complement: "<<1;
+        return 0;
+    }
+
     /* Coded by me
     while(n!=0){
         n=n>>1;
@@ -24,7 +30,7 @@ int main(){
     mask = (mask << 1) | 1;
     n = n >> 1;
    }
-   
+
     cout<<"Complement: "<<(complement & mask);
 
 }
