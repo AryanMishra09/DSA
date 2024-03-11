@@ -10,12 +10,14 @@ int main(){
     int n;
     cout<<"Enter number: ";
     cin>>n;
-
+    int ans = 1;
     for(int i=0; i<31; i++){
-        int ans = pow(2,i);
         if(n==ans){
             cout<<"true";
             return true;
+        }
+        if(ans<INT32_MAX/2){
+            ans = ans * 2;
         }
     }
     cout<<"false";
