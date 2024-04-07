@@ -18,4 +18,4 @@ int main(){
         i++;
     }
     cout<<sum;
-}
+} 
