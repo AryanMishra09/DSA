@@ -5,7 +5,7 @@ int binarySearch(int a[], int size, int key){
     int i=0, j=(size-1);
     int mid = 0;
     while(i<=j){
-        mid = i + (j-i)/2;
+        mid = i + (j-i)/2;   //for handling integer overflow; when i=int_max & j=int_max then i+j= greater than integer limit, thats why formula is written in this form.
         if(a[mid] == key){
             return mid;
         }
