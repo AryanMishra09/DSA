@@ -3,10 +3,15 @@ using namespace std;
 
 void bubbleSort(int a[], int size){
     for(int i=0; i<size-1; i++){
+        bool swapped = false;
         for(int j=0; j<size-i-1; j++){
             if(a[j]>a[j+1]){
                 swap(a[j], a[j+1]);
+                swapped = true;
             }
+        }
+        if(swapped==false){
+            break;
         }
     }
     for(int i=0; i<size; i++){
