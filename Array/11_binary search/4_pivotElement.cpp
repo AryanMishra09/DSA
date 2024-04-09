@@ -25,7 +25,7 @@ int pivotElement(int a[], int size){
 }
 
 int main(){
-    int a[5] = {7,9,1,2,3};
+    int a[5] = {8,10,17,1,3};
     int index = pivotElement(a,5);
     cout<<"Pivot element: "<<a[index];
 }
