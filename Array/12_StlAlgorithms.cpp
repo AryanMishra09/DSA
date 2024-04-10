@@ -5,7 +5,10 @@ using namespace std;
 int main(){
     vector<int> v;
     v.push_back(1);
+    v.push_back(2);
     v.push_back(3);
+    v.push_back(4);
+    v.push_back(5);
     v.push_back(6);
     v.push_back(7);
     cout<<"Finding 6 is present or not by binary search: "<<binary_search(v.begin(), v.end(), 6)<<endl;
@@ -27,8 +30,8 @@ int main(){
     for(int i:v){
         cout<<i<<" ";
     }cout<<endl;
-    rotate(v.begin(), v.begin()+2, v.end());
-    cout<<"Vector after rotate: ";
+    rotate(v.begin(), v.begin()+3, v.end());   //equvalent to shifting the array right by 2 steps. 
+    cout<<"Vector after rotate: ";             //the index at which v.begin()+4 is pointing will become the first element of the resultant array
     for(int i:v){
         cout<<i<<" ";
     }cout<<endl;
@@ -45,7 +48,7 @@ int main(){
         cout<<i<<" ";
     }cout<<endl;
     vector<int> v3(9);
-    merge(v.begin(), v.end(), v2.begin(), v2.end(), v3.begin());   //merge hamesha sorted array me hi lagta h.
+    merge(v.begin(), v.end(), v2.begin(), v2.end(), v3.begin());   //merge hamesha sorted array me hi lagta 
     cout<<"Merged sorted array: ";
     for(int i:v3){
         cout<<i<<" ";
