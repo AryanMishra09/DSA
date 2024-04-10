@@ -39,5 +39,16 @@ int main(){
         cout<<i<<" ";
     }cout<<endl;
 
-
+    vector<int> v2(5,5);
+    cout<<"Vector 2: ";
+    for(int i:v2){
+        cout<<i<<" ";
+    }cout<<endl;
+    vector<int> v3(9);
+    merge(v.begin(), v.end(), v2.begin(), v2.end(), v3.begin());   //merge hamesha sorted array me hi lagta h.
+    cout<<"Merged sorted array: ";
+    for(int i:v3){
+        cout<<i<<" ";
+    }cout<<endl;
+    
 }
