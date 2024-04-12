@@ -11,6 +11,8 @@ Explanation: s2 contains one permutation of s1 ("ba").
 Example 2:
 Input: s1 = "ab", s2 = "eidboaoo"
 Output: false
+
+LINK: https://www.youtube.com/watch?v=Wdjr6uoZ0e0&t=11s&ab_channel=CodeHelp-byBabbar     at 1:25:00
 */
 
 #include <iostream>
