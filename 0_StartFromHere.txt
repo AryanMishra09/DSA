@@ -1,5 +1,0 @@
-Do signup in LeetCode and do this question firstly in LeetCode.
-
-already solve in 4_CharacterArray folder in 7_RemoveDuplicates.cpp file
-
-https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
