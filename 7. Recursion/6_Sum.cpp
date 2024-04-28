@@ -15,6 +15,7 @@ int sum(int arr[], int size, int sum1=0){
 
 }
 
+//approach 2:
 int sum2(int arr[], int size){
     if(size==0){
         return 0;
