@@ -13,7 +13,7 @@ Explanation of sample input 1:
 All possible subsequences of abc are :  
 “a” , “b” , “c” , “ab” , “bc” , “ac”, “abc”
 
-link: https://leetcode.com/problems/find-the-duplicate-number/description/
+link: https://leetcode.com/problems/distinct-subsequences-ii/description/
 */
 
 #include <iostream>
