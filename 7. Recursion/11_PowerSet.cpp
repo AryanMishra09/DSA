@@ -12,6 +12,8 @@ Input: nums = [0]
 Output: [[],[0]]
 
 LINK: https://leetcode.com/problems/subsets/description/
+Similar concept: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+Important Concept question : https://leetcode.com/problems/is-subsequence/
 */
 
 #include <iostream>
